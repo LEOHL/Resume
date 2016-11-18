@@ -5,11 +5,11 @@
     <title></title>
     <!--<meta name="viewport" content="width=device-width"/>-->
     <link rel="stylesheet" href="css/progress.css">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <!--<link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap.min.css">-->
+    <!--<link rel="stylesheet" href="css/bootstrap.min.css">-->
+    <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
     <script src="js/carousel.js"></script>
     <script src="js/transition.js"></script>
-    <link rel="stylesheet" href="css/style2.css">
 </head>
 <body>
 <nav class="navbar navbar-default navbar-inverse navbar-fixed-top" style="opacity:0.9">
@@ -43,6 +43,7 @@
             求职意向</button>
     </div>
 </div>
+<!--1-->
 <div class="container">
     <div class="title">
         <h1>专业技能</h1>
@@ -120,6 +121,7 @@
             <p><a class="btn btn-default" href="#">Know more &raquo;</a></p>
         </div>
     </div>
+    <!--2-->
     <div class="title">
         <h1>有趣的图形特效</h1>
     </div>
@@ -131,8 +133,55 @@
             <div class="ex slide-in-top"><span>隐藏在上边</span><div>slide-in-top</div></div>
             <div class="ex rotate-right"><span>右旋</span><div>rotate-right</div></div>
     </div>
+<!--3-->
+    <div class="title">
+        <h1>模态框</h1>
+    </div>
+    <div class="pict"></div>
+    <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal" style="margin: 20px 470px">
+        Launch demo modal
+    </button>
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="modal-body">
+                        <h4>Text in a modal</h4>
+                        <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula.</p>
 
-    <nav class="navbar navbar-default navbar-static" style="margin-top: 300px">
+                        <h4>Popover in a modal</h4>
+                        <p>This <a href="#" role="button" class="btn btn-default popover-test" title="" data-content="And here's some amazing content. It's very engaging. right?" data-original-title="A Title">button</a> should trigger a popover on click.</p>
+
+                        <h4>Tooltips in a modal</h4>
+                        <p><a href="#" class="tooltip-test" title="" data-original-title="Tooltip">This link</a> and <a href="#" class="tooltip-test" title="" data-original-title="Tooltip">that link</a> should have tooltips on hover.</p>
+
+                        <hr>
+
+                        <h4>Overflowing text to show scroll behavior</h4>
+                        <p>Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+                        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
+                        <p>Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec sed odio dui. Donec ullamcorper nulla non metus auctor fringilla.</p>
+                        <p>Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+                        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
+                        <p>Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec sed odio dui. Donec ullamcorper nulla non metus auctor fringilla.</p>
+                        <p>Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+                        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
+                        <p>Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec sed odio dui. Donec ullamcorper nulla non metus auctor fringilla.</p>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+<!--4-->
+    <nav class="navbar navbar-default navbar-static" style="margin-top: 50px">
         <ul class="nav navbar-nav">
             <li><a href="#fat">学习经历</a></li>
             <li><a href="#mdo">性格特征</a></li>
@@ -152,7 +201,13 @@
         In incididunt echo park, officia deserunt mcsweeney's proident master cleanse thundercats sapiente veniam. Excepteur VHS elit, proident shoreditch +1 biodiesel laborum craft beer. Single-origin coffee wayfarers irure four loko, cupidatat terry richardson master cleanse. Assumenda you probably haven't heard of them art party fanny pack, tattooed nulla cardigan tempor ad. Proident wolf nesciunt sartorial keffiyeh eu banh mi sustainable. Elit wolf voluptate, lo-fi ea portland before they sold out four loko. Locavore enim nostrud mlkshk brooklyn nesciunt.
     </div>
     <hr>
+
     <footer>
+        <div class="footer1">
+            <a class="btn btn-primary btn-lg" href="#" role="button">View project on Github</a>
+            <button class="btn btn-default btn-sm"><a href="http://weibo.com/huanglei1994" target="_blank"><img src="img/wb.png"></a></button>
+            <button id="zhihu" class="btn btn-info btn-lg"><a href="https://zhihu.com/people/huang-lei1994" target="_blank">知乎</a></button>
+        </div>
         <p>© Company 2014</p>
     </footer>
 </div>
@@ -175,22 +230,6 @@
         })
 
     })
-    var name = 'ls';
-    var obj = {
-        name:"zs",
-        test:function(){
-
-            function a(){
-                console.log(this);
-            }
-
-            return a;
-
-        }
-    }
-
-    var b = obj.test();
-    $.proxy(b,obj)();
 </script>
 </body>
 </html>
