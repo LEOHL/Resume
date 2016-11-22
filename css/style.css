@@ -52,18 +52,12 @@
             height: 200px;
             float: left;
             margin: 13px;
-            background-color: deepskyblue;
             font: 100 18px/200px arial, helvetica, sans-serif;
             text-align: center;
             position: relative;
             transform-style: preserve-3d;
             perspective: 800px;
             visibility: visible;
-        }
-        .ex span {
-            width: 200px;
-            height: 200px;
-            color: white;
         }
         .ex div {
             pointer-events: none;
@@ -73,8 +67,6 @@
             position: absolute;
             top: 0;
             left: 0;
-            color: darkgrey;
-            background-color: orangered;
         }
         .slide-in-left div {
             opacity: 0;
