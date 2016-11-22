@@ -1,8 +1,26 @@
 /** {*/
     /*font-family:"glyphicons-halflings-regular.eot","glyphicons-halflings-regular", "glyphicons-halflings-regular.woff"! important;*/
 /*}*/
-.jumbotron{
-            background:-webkit-gradient(linear, 0% 0%, 0% 100%,from(#836FFF), to(#CAFF70));
+        body{
+            overflow:Scroll;
+            overflow-x:hidden;
+        }
+        p{
+            color: white;
+        }
+        #all{
+            position: fixed;
+            /*width: 1366px;*/
+            /*height: 768px;*/
+            width: 100vw;
+            height: 130vh;
+            background-repeat:no-repeat;
+            background-attachment:fixed;
+            z-index:-1;
+        }
+        .jumbotron{
+            background:-webkit-gradient(linear, 0% 0%, 0% 100%,from(#836FFF), to(#f0dad2));
+            opacity: 0.5;
         }
         .item{
             height: 300px;
@@ -16,14 +34,8 @@
         .title h1{
             font-size: 30px;
         }
-        #skill_info{
-            width: 150px;
-            margin: 3px auto;
-            padding: 5px 0;
-            border-top: 2px solid #f00
-        }
-        .pict{
-            width: 250px;
+        .skill_info{
+            width: 20vw;
             margin: 3px auto;
             padding: 5px 0;
             border-top: 2px solid #f00
@@ -116,4 +128,19 @@
          #zhihu a{
              text-decoration:none;
              font-weight: bold;
+         }
+         #btnmodal{
+             margin-bottom: 5vh;
+             margin-left: 27vw;
+         }
+         .modal-body p{
+             color: #080808;
+         }
+         #navb{
+             margin-top: 40vh;
+         }
+         .btnresume{
+             position: absolute;
+             margin-left: 48vw;
+             z-index: 1000;
          }
