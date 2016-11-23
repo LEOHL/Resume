@@ -48,10 +48,10 @@
             padding: 50px;
         }
         .ex {
-            width: 200px;
-            height: 200px;
+            width: 20vw;
+            height: 18vh;
             float: left;
-            margin: 13px;
+            margin: -4vh;
             font: 100 18px/200px arial, helvetica, sans-serif;
             text-align: center;
             position: relative;
@@ -62,8 +62,8 @@
         .ex div {
             pointer-events: none;
             z-index: 999;
-            width: 200px;
-            height: 200px;
+            width: 20vw;
+            height: 18vh;
             position: absolute;
             top: 0;
             left: 0;
@@ -129,10 +129,16 @@
              color: #080808;
          }
          #navb{
-             margin-top: 40vh;
+             margin-top: 30vh;
          }
          .btnresume{
              position: absolute;
              margin-left: 48vw;
              z-index: 1000;
+         }
+         .imgp{
+             margin-top: 15vh;
+         }
+         .imgp p{
+             margin-left: 10vh;
          }
